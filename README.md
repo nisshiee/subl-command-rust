@@ -50,3 +50,11 @@ subl
 ```
 
 Then Sublime Text creates new window with loading your project settings.
+
+
+License
+--------------------
+
+Available as open source under the terms of the MIT License.
+
+see: [LICENSE](https://github.com/nisshiee/subl-command-rust/blob/master/LICENSE)
