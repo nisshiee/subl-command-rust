@@ -26,7 +26,7 @@ impl StdError for Error {
         }
     }
 
-    fn cause(&self) -> Option<&StdError> {
+    fn cause(&self) -> Option<&dyn StdError> {
         match *self {
             Error::UnexpectedIoError(ref error) => Some(error),
             _                                   => None,
